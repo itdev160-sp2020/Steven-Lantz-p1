@@ -5,7 +5,18 @@ var user ='privacy companion';
 var salutation = 'How\'s it going ';
 var greeting = salutation + user + '?' +' Thanks for checking out this site!';
 var greetingEl = document.getElementById("greeting");
-greetingEl.textContent = greeting;
+greetingEl.textContent = greeting + timeOfDay();
+
+function timeOfDay(){
+    var hours = new Date().hours;
+
+    if(hours > 12){
+        alert("Good Afternoon!");
+    }
+    else{
+        alert("Good Morning!");
+    }
+}
 
 //Function to fill table
 //First level of pricing for service
