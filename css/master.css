@@ -1,0 +1,106 @@
+/*Project 1 */
+*{
+    font-family: "Open Sans" , sans-serif;
+    margin:0;
+}
+body{
+    background-color: #848885;
+    
+
+}
+header {
+    color:white;
+    font-size:4em;
+    background-image: url("../images/protonvpn_backgroung.jpg");
+    background-position: center;
+    border-radius: 75px;
+    border-color: black;
+    margin: 8px 8px 8px 8px;
+    border-style: solid;
+    border-width: 4px;
+    padding-bottom: 75px;
+}
+header p{
+   
+    padding-left:50px;
+    text-shadow: 5px 5px black;
+}
+header h1{
+    
+    padding: 50px 0px 0 800px;
+    margin-right: 100px; 
+    text-shadow: 5px 10px black;
+}
+aside{
+    float: left;
+    padding-top: 4px;
+}
+aside p{
+    padding-top: 0px;
+    float:left;
+    text-align: end;
+}
+#logo{
+    max-width:60%;
+    float:left;
+    margin: 8px 8px 8px 8px;
+}
+#left{
+    text-align: center;
+    border-style: solid;
+    width: 48%;
+    float: left;
+    margin: 8px 8px 8px 8px;
+    padding: 8px 8px 8px 8px;
+}
+#right{
+    
+    width: 48%;
+    float: right;
+    margin: 8px 8px 8px 8px;
+}
+footer{
+    padding-top: 85px;
+    text-align: right;
+    padding-right: 20px;
+}
+#complex-table{
+    border-color:black;
+    font-size: 1.2em;
+    border-style: solid;
+}
+.table{
+background-color:#2fb460;
+}
+.table-content{
+   font-size: 1.2em;
+   font-weight: 800;
+   text-align: center;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.1em;
+    font-style: oblique;
+    font-weight: 800;
+    background-color: lightgray;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+}
+#tier2{
+    margin-left: 20px;
+}
+#tier3{
+    margin-left: 20px;
+}
+#tier4{
+    margin-left: 20px;
+}
+#greeting{
+   text-shadow: 2px 1.5px white;
+   text-align: left;
+}
+#current{
+    font-weight: 900;
+    padding-left: 25px;
+}
