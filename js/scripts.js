@@ -5,7 +5,12 @@ var user ='privacy companion';
 var salutation = 'How\'s it going ';
 var greeting = salutation + user + '?' +' Thanks for checking out this site!';
 var greetingEl = document.getElementById("greeting");
-greetingEl.textContent = greeting + timeOfDay();
+greetingEl.textContent = greeting;
+
+
+
+var time =document.getElementById("script");
+time.textContent=timeOfDay();
 
 function timeOfDay(){
     var hours = new Date().hours;
