@@ -5,23 +5,27 @@ var user ='privacy companion';
 var salutation = 'How\'s it going ';
 var greeting = salutation + user + '?' +' Thanks for checking out this site!';
 var greetingEl = document.getElementById("greeting");
-greetingEl.textContent = greeting;
+greetingEl.textContent = greeting ;
 
 
+
+function timeOfDay() {
+    var hours = new Date().getHours();
+
+    if (hours > 18) {
+        alert("Good Evening!");
+    }
+   else if(hours < 12 ) {
+        alert("Good Morning!");
+    }
+    else if(hours > 12)
+        alert("Good Afternoon!");
+}
 
 var time =document.getElementById("script");
 time.textContent=timeOfDay();
 
-function timeOfDay(){
-    var hours = new Date().hours;
 
-    if(hours > 12){
-        alert("Good Afternoon!");
-    }
-    else{
-        alert("Good Morning!");
-    }
-}
 
 //Function to fill table
 //First level of pricing for service
